@@ -1,0 +1,72 @@
+body{
+  width: 800px;
+  height: auto;
+  color: red;
+  margin: 0 auto;
+  background: black;
+  text-align: center;
+}
+
+.color-bubble{
+  width: 50%;
+  height: 80px;
+  background: white;
+  margin: 0 auto;
+  border-radius: 30px;
+  border: 2px solid black;
+  position: relative;
+}
+
+p{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  top: 10px;
+  font-size: 18px;
+}
+
+#bubble-content{
+  margin: 10px 0 0 0;
+  font-size: 40px;
+}
+
+.color-container{
+  width: 50%;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 30px;
+
+}
+.red-container,.green-container,.blue-container{
+  width: 30%;
+  height: 40px;
+  background: red;
+  margin: 0 auto;
+  border-radius: 60px;
+  color: white;
+  margin-top: 30px;
+  border: 2px solid black;
+  position: relative;
+}
+.green-container{
+  background: green;
+}
+.blue-container{
+  background: blue;
+}
+.color-content{
+
+}
+
+.color-range{
+  width: 100%;
+  position: absolute;
+  bottom:0;
+}
+h1{
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 75px;
+  font-weight: bold;
+}

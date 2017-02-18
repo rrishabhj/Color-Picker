@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Londrina Shadow' rel='stylesheet' type='text/css'>
+    <link href="colorpicker.css" rel="stylesheet" >
+    <link href="range.css" rel="stylesheet" >
+    <link href="index.css" rel="stylesheet" >
+    <script src="index.js" type="text/javascript"></script>
+    <title>Color picker</title>
+  </head>
+  <body>
+    <h1>Color Picker <br>By Rishabh Jindal</h1>
+    <div class="color-bubble">
+      <p id="bubble-content">
+        #000000
+      </p>
+    </div>
+
+    <div class="color-container">
+
+      <div id="red-bg" class="red-container">
+        <p id="red-content" class="color-content">
+        RED = 0
+      </p>
+    </div><br>
+      <form class="color-range red-range" action="index.html" method="post">
+        <input  type="range" oninput="showVal(this.value,0)" name="points" id="red_slider" min="0" max="255" value="0">
+      </form>
+    </div>
+
+    <div class="color-container">
+
+      <div id="green-bg" class="green-container">
+        <p id="green-content" class="color-content">
+        GREEN =0
+      </p>
+    </div><br>
+      <form class="color-range green-range" action="index.html" method="post">
+        <input type="range" oninput="showVal(this.value,1)" id="green_slider" name="points" min="0" max="255" value="0">
+      </form>
+    </div>
+    <div class="color-container">
+
+      <div id="blue-bg" class="blue-container">
+        <p id="blue-content" class="color-content">
+        BLUE = 0
+      </p>
+    </div><br>
+      <form class="color-range blue-range" action="index.html" method="post">
+        <input type="range" oninput="showVal(this.value,2)" name="points" id="blue_slider" min="0" max="255" value="0">
+      </form>
+    </div>
+  </body>
+
+</html>
